@@ -143,6 +143,8 @@ set(SLIC3R_GUI_SOURCES
     GUI/Sidebar.hpp
     GUI/Plater.cpp
     GUI/Plater.hpp
+    GUI/LoadStepDialog.cpp
+    GUI/LoadStepDialog.hpp
     GUI/PresetComboBoxes.hpp
     GUI/PresetComboBoxes.cpp
     GUI/BitmapComboBox.hpp
@@ -248,6 +250,8 @@ set(SLIC3R_GUI_SOURCES
     GUI/Jobs/PlaterWorker.hpp
     GUI/Jobs/ArrangeJob2.hpp
     GUI/Jobs/ArrangeJob2.cpp
+    GUI/Jobs/SeqArrangeJob.hpp
+    GUI/Jobs/SeqArrangeJob.cpp
     GUI/Jobs/CreateFontNameImageJob.cpp
     GUI/Jobs/CreateFontNameImageJob.hpp
     GUI/Jobs/CreateFontStyleImagesJob.cpp
